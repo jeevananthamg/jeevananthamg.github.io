@@ -1,29 +1,42 @@
 # Site settings
 title: Veera's Soul Portraits
-email: zsmnzxklx@hotmail.com
-url: https://jeevananthamg.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+email: veerassoulportraits@gmail.com
+url: http://jeevananthamg.github.io
+description: "To define is to limit whereas an ART is endless"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary-dark: '#000000'
   links: '#219ab3'
 
+##############################
+# Dynamic Text on the header #
+##############################
+
+dynamic-typing: True
+shuffle: True	# Shuffle the lines.
+loop: True
+loop-count:	False # Set False for infinite loop, or set any number for finite loop.
+type-speed:	10		# Default 10
+start-delay: 200	# Default 200
+delete-delay: 5000	# Default 5000
+lines:			# You can add HTML Tags in the Text
+  - text: "The lower you fall, the higher you'll fly."
+ # - text: "Where’s your will to be weird?"
+
 # Footer settings
 footer: Veera's Soul Portraits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: https://twitter.com/SBootstrap
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: https://github.com/IronSummitMedia/startbootstrap
+    url: https://www.facebook.com/Veeras-Soul-Portraits-1523866844592234/ 
+    
+#  - title: gmail
+ #   url: https://gmail.com   
+
+#  - title: github
+ #   url: https://github.com/IronSummitMedia/startbootstrap
 
 # Build settings
 markdown: kramdown
