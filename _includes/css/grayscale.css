@@ -301,28 +301,29 @@ a:focus {
 }
 
 .price {
-	padding: 50px 0px;
+	padding: 0px;
 	text-align: center;
-	background: #E9E9E9;
+	background: none;
 }
 .price-top h3 {
 	font-size: 35px;
 	font-weight: 400;
-	color: #000;
+	color: #fff;
 	margin: 0px 0px 18px 0px;
 	font-family: 'Roboto', sans-serif;
 }
 .price-top h4 {
 	font-size: 20px;
   font-weight: 400;
-  color: #000;
+  color: #fff;
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #fff;
   padding: 0em 0em 1em 0em;
   width: 70%;
   margin: 0 auto;
 }
+
 .price-bottom {
 	padding: 30px 0px;
 }
@@ -351,7 +352,7 @@ a:focus {
 }
 span.price-line {
 	background: #000;
-	width: 320px;
+	width: 200px;
 	height: 1px;
 	display: block;
 	margin: 20px auto;
@@ -361,14 +362,14 @@ span.price-line {
 	list-style: none;
 }
 .price-grid ul li i{
-  background: url(../images/tick.png)no-repeat;
+  background: url(../img/tick.png)no-repeat;
   width: 24px;
   height: 16px;
   display: inline-block;
   vertical-align: middle;
 }
 .price-grid:hover.price-grid ul li i {
-  background: url(../images/tick-hvr.png)no-repeat;
+  background: url(../img/tick-hvr.png)no-repeat;
   width: 24px;
   height: 16px;
   display: inline-block;
@@ -387,15 +388,17 @@ span.price-line {
 	font-size: 30px;
 	font-weight: 500;
 	color: #fff;
-	background: #6699CC;
-	width: 43%;
+	width: 100%;
+	height: 140px;
+	overflow: hidden;
 	margin: 48px auto 38px;
-	padding: 41px 10px;
+	/*padding: 41px 10px;
+	background: #6699CC;
 	border-radius: 78px;
 	-webkit-border-radius: 78px;
   -moz-border-radius: 78px;
   -o-border-radius: 78px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;*/
 }
 .price-grid h5 {
 	font-size: 30px;
@@ -404,7 +407,7 @@ span.price-line {
 }
 span.pricebott-line {
 	background: #000;
-	width: 300px;
+	width: 200px;
 	height: 1px;
 	display: block;
 	margin: 10px auto;
@@ -607,7 +610,7 @@ span.pricebott-line {
   width: 30%;
 }
 .price-grid:hover.price-grid ul li i {
-  background: url(../images/tick-hvr.png)no-repeat;
+  background: url(../img/tick-hvr.png)no-repeat;
   width: 12px;
   height: 16px;
   display: inline-block;
@@ -615,7 +618,7 @@ span.pricebott-line {
   background-size: 100%;
 }
 .price-grid ul li i {
-  background: url(../images/tick.png)no-repeat;
+  background: url(../img/tick.png)no-repeat;
   width: 15px;
   height: 16px;
   display: inline-block;
@@ -701,10 +704,10 @@ span.pricebott-line {
   100% { opacity:1; }
 }
 .animate-flicker {
-   -webkit-animation: flickerAnimation 5s infinite;
-   -moz-animation: flickerAnimation 5s infinite;
-   -o-animation: flickerAnimation 5s infinite;
-    animation: flickerAnimation 10s infinite;
+   -webkit-animation: flickerAnimation 3s infinite;
+   -moz-animation: flickerAnimation 3s infinite;
+   -o-animation: flickerAnimation 3s infinite;
+    animation: flickerAnimation 3s infinite;
 }
 
 
